@@ -1,0 +1,145 @@
+#header {
+    background-color: #000;
+    height: 48px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header .header-content {
+    max-width: 1100px;
+    margin: auto;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+    float: left;
+    padding: 16px 40px;
+    font-size: 12px;
+
+}
+
+#nav li:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#header .icon-btn {
+    float: right;
+}
+
+#header .icon {
+    color: #fff;
+    font-size: 13px;
+    line-height: 48px;
+    padding: 0 8px;
+}
+
+#header .icon:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+#logo {
+    position: relative;
+    margin-top: 48px;
+    width: 100%;
+    padding: 100px 0;
+}
+
+#logo .title {
+    text-align: center;
+}
+
+#main-image {
+    height: 600px;
+}
+
+#main-image .content-image {
+    height: 100%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+#main-image .detail-img {
+    background: url('/asset/img/13.jpg') center / contain no-repeat;
+    padding-top: 100%;
+    background-position-y: -70px;
+    position: relative;
+}
+
+#main-image .content-image:hover{
+    cursor: pointer;
+}
+
+#main-image .text-content {
+    position: absolute;
+    top: 275px;;
+    color: #fff;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#main-image .text-heading {
+    padding: 4px 12px;
+    line-height: 3;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #000;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#main-image .text-heading:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+#main-image .text-description {
+    margin-top: 12px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.content-image .sub-img {
+    overflow-y: hidden;
+    position: relative;
+}
+
+.content-image img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+
+#main-image .sub-img .text-content{
+    position: absolute;
+    top: 125px;;
+    color: #fff;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
