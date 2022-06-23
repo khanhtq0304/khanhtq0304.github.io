@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC</title>
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/card.css">
     <link rel="stylesheet" href="./asset/css/main.css">
     <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
 </head>
 
 <body>
@@ -18,10 +20,10 @@
         <div id="header">
             <div class="header-content">
                 <ul id="nav">
-                    <li><a href="">Hmmmm</a></li>
-                    <li><a href="">Hmmmm</a></li>
-                    <li><a href="">Hmmmm</a></li>
-                    <li><a href="">Hmmmm</a></li>
+                    <li><a href="">Dung</a></li>
+                    <li><a href="">Nhi</a></li>
+                    <li><a href="">Đáng</a></li>
+                    <li><a href="">Yêu</a></li>
                 </ul>
 
                 <div class="icon-btn">
@@ -51,6 +53,7 @@
                 <div class="row">
                     <div class="col col-2-3">
                         <div class="detail-img">
+                            <img src="/asset/img/8.2.jpg" alt="">
                             <div class="text-content">
                                 <b><a href="" class="text-heading">Beauty</a></b>
                                 <div class="text-description">You're My Sunset</div>
@@ -59,14 +62,14 @@
                     </div>
                     <div class="col col-1-3">
                         <div class="row-2 sub-img">
-                            <img src="/asset/img/14.jpg" alt="">
+                            <img src="/asset/img/6.2.jpg" alt="">
                             <div class="text-content">
                                 <b><a href="" class="text-heading">Daily</a></b>
                                 <div class="text-description">Love Allday</div>
                             </div>
                         </div>
                         <div class="row-2 sub-img">
-                            <img src="/asset/img/8.jpg" alt="">
+                            <img src="/asset/img/10.2.jpg" alt="">
                             <div class="text-content">
                                 <b><a href="" class="text-heading">Woman</a></b>
                                 <div class="text-description">Love You Forever</div>
@@ -79,8 +82,92 @@
         <!-- End main image -->
 
         <!-- Card -->
-        
+        <section>
+            <div class="container playlist">
+                <div id="song1" class="card player1">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="/asset/img/25.jpg">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Dung Nhi<br><span>Anh Đã Bỏ Thuốc Chưa</span></h3>
+                        </div>
+                    </div>
+                    <div class="btn-toggle-play">
+                        <i class="fas fa-play-circle icon icon-play"></i>
+                        <i class="fas fa-pause icon icon-pause"></i>
+                    </div>
+                    <input id="progress1" class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <audio id="audio1" src="/asset/music/Bỏ Thuốc.m4a"></audio>
+                </div>
+                <div id="song2" class="card player2">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="/asset/img/26.jpg">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Dung Nhi<br><span>Thằng Điên</span></h3>
+                        </div>
+                    </div>
+                    <div class="btn-toggle-play">
+                        <i class="fas fa-play-circle icon icon-play"></i>
+                        <i class="fas fa-pause icon icon-pause"></i>
+                    </div>
+                    <input id="progress2" class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <audio id="audio2" src="/asset/music/Thằng Điên.m4a"></audio>
+                </div>
+                <div id="song3" class="card player3">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="/asset/img/5.JPG">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Dung Nhi<br><span>Super idol</span></h3>
+                        </div>
+                    </div>
+                    <div class="btn-toggle-play">
+                        <i class="fas fa-play-circle icon icon-play"></i>
+                        <i class="fas fa-pause icon icon-pause"></i>
+                    </div>
+                    <input id="progress3" class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <audio id="audio3" src="/asset/music/Không biết.m4a"></audio>
+                </div>
+                <div id="song4" class="card player4">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="/asset/img/2.PNG">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Dung Nhi<br><span>Cho Mỗi Em Nghe</span></h3>
+                        </div>
+                    </div>
+                    <div class="btn-toggle-play">
+                        <i class="fas fa-play-circle icon icon-play"></i>
+                        <i class="fas fa-pause icon icon-pause"></i>
+                    </div>
+                    <input id="progress4" class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <audio id="audio4" src="/asset/music/Túy.mp3"></audio>
+                </div>
+                <div id="song5" class="card player5">
+                    <div class="content">
+                        <div class="imgBx">
+                            <img src="/asset/img/4.JPG">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Dung Nhi<br><span>Đừng Chê Anh</span></h3>
+                        </div>
+                    </div>
+                    <div class="btn-toggle-play">
+                        <i class="fas fa-play-circle icon icon-play"></i>
+                        <i class="fas fa-pause icon icon-pause"></i>
+                    </div>
+                    <input id="progress5" class="progress" type="range" value="0" step="1" min="0" max="100">
+                    <audio id="audio5" src="/asset/music/Cho mình em.mp3"></audio>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
+<script src="./index.js"></script>
 
 </html>

@@ -80,10 +80,8 @@
 
 
 #main-image .detail-img {
-    background: url('/asset/img/13.jpg') center / contain no-repeat;
-    padding-top: 100%;
-    background-position-y: -70px;
     position: relative;
+    height: 100%;
 }
 
 #main-image .content-image:hover{
